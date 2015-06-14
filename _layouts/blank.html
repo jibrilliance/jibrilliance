@@ -18,9 +18,7 @@
   </head>
   <body>
     <header>
-          <section role="header">
           {% img /img/header1.png 1056x264 %}
-          </section>
       <nav>
         <ul>
           <li><a href="{{ site.baseurl }}/">Home</a></li>{% for node in site.pages %}{% if node.title %}<li><a href="{{ node.url | prepend: site.baseurl }}"{% if page.url == node.url %} id="selected"{% endif %}>{{ node.title }}</a></li>{% endif %}{% endfor %}
