@@ -7,7 +7,7 @@ url: "jibrilliance.github.io"
 #baseurl: "/contrast" # comment out if in root directory
 
 comments:
-    disqus: "jibrl"
+    disqus: "jibrilliance"
 #    isso: "comments.mysite.org"
 
 style:
