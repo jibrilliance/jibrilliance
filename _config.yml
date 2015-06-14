@@ -4,6 +4,7 @@ description: "Some Guy Somewhere"
 #subheading: "Some Guy Somewhere"
 more: "read more"
 url: "jibrilliance.github.io"
+emoji_dir: ./img/emoji
 #baseurl: "/contrast" # comment out if in root directory
 
 comments:
