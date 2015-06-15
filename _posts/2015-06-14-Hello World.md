@@ -1,5 +1,6 @@
 ---
 published: TRUE
+content | emojify
 ---
 
 My name is Jibril,
