@@ -1,8 +1,6 @@
 ---
 published: TRUE
-
 ---
-{{ content | emojify }}
 
 My name is Jibril,
 This is my personal website, i don't know why you visited this website, you're probably just one of my friend who knows this website of mine.
