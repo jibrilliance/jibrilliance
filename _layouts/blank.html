@@ -13,12 +13,15 @@
     <link href='//fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &raquo; Feed" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+    <link href="css/anim.css" rel='stylesheet' type="text/css">
     {% if site.comments.disqus and page.comments %}<script src="//{{ site.comments.disqus }}.disqus.com/embed.js" async></script>{% endif %}
     {% if site.comments.isso and page.comments %}<script data-isso="http://{{ site.comments.isso }}" src="//{{ site.comments.isso }}/js/embed.min.js"></script>{% endif %}
   </head>
   <body>
     <header>
+        <div id="logo" fadeInDown animated>
           <img src="/img/header1.png" >
+        </div>
       <nav>
         <ul>
           <li><a href="{{ site.baseurl }}/">Home</a></li>{% for node in site.pages %}{% if node.title %}<li><a href="{{ node.url | prepend: site.baseurl }}"{% if page.url == node.url %} id="selected"{% endif %}>{{ node.title }}</a></li>{% endif %}{% endfor %}
